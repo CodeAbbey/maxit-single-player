@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Maxit Single Player Demo</title>
+</head>
+<body>
+    <div style="text-align:center">
+        <h1>Maxit Game single-player</h1>
+        <p>For Codeabbey programming problem <a href="http://www.codeabbey.com/index/task_view/maxit-single-player">Maxit Single-Player</a></p>
+        <canvas id="demo" width="300" height="250" style="border:5px solid #888;border-radius: 5px;background: black;" onclick="clickMove(event)"></canvas>
+        <form>
+	        <label>Puzzle #: </label>
+	        <input id="input" type="text" title="Input Puzzle Number" value="0"/>
+	        <input type="button" value="Restart" onclick="setvals()"/>
+        </form>
+        <div>Click numbers inside rectangle to make a move</div>
+        </div>
+    </div>
+    <script src="./maxit.js"></script>
+</body>
+</html>
+
